@@ -12,6 +12,10 @@ This repository contains the files and information for CIVE 202 Project #4. The 
 # How To Run
 To run the data you first must download the Python notebook to your device. You must also downloaded all the raw data files for the project and save them in the same directory where the Python notebook is located. These data files include the NRI, SVI files, shapefile files, and the data dictionary of the NRI. Execute each cell one after the other from the top to the bottom. Each cell is divided into blocks, and each block is labeled to ease your navigation. Package import is done in the first block. The second block involves loading and cleaning of the datasets. In the next blocks, the merging of data, creation of the risk calculation, and generation of figures are done.
 
+Due to some shapefiles and the NRI dictionary being too large to upload here, you can access and downloads these files here:
+- https://uofnebraska-my.sharepoint.com/personal/37381171_nebraska_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F37381171%5Fnebraska%5Fedu%2FDocuments%2FTeaching%2FCIVE%20202%2FSpring%202026%2FProject%20%234%2FSHP%20by%20State%2FStudent%20Shape%20Files&ga=1
+- https://uofnebraska-my.sharepoint.com/:x:/g/personal/37381171_nebraska_edu/IQAvXCXswi0qRYTbxnHb9OY3AfHntK45kx768_5_-5FUQe8?e=McTQTt
+
 # User Guide
 The Python notebook is what carries out all the coding processes in this project. The annotated code file provides explanations for the coding steps in the Python notebook. The written report highlights the background of the project, process used, results, and comparison between FEMA's method of calculating the risk and our proposed method. The raw data files are included so the code can run correctly and so the project can be reproduced. 
 The Python notebook does not require user inputs. The selected states, hazards, and risk variables are already set directly into the code. If the user wishs to change the state or harzard being analyized you would need to edit the variables and column selected in the notebook.
